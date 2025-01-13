@@ -28,5 +28,16 @@
     "status": true,
     "category": "Muebles",
     "stock": 0
+  },
+  {
+    "id": "a6a971de-c3aa-418d-8e04-a739e7adc09d",
+    "title": "Boligrafo",
+    "description": "Lapicero de escritura",
+    "code": "BOLIG",
+    "price": 8700,
+    "status": true,
+    "category": "Utiles",
+    "stock": 3,
+    "thumbnails": []
   }
 ]

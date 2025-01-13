@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { v4 as uuid } from 'uuid';
+import { upload } from '../middlewares/multer.middleware.js';
 
 class ProductManager {
   path;
@@ -78,7 +79,7 @@ class ProductManager {
       status: status || true,
       category,
       stock: Number(stock),
-      thumbnails
+      thumbnails: []
     };
 
     this.products.push(product);
