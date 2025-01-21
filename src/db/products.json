@@ -39,5 +39,27 @@
     "category": "Utiles",
     "stock": 3,
     "thumbnails": []
+  },
+  {
+    "id": "09727282-da70-46b3-bcc2-80829f890dea",
+    "title": "Mazda6e",
+    "description": "Nuevo Mazda 6e 100% Eléctrico",
+    "code": "MAZ6e",
+    "price": 350000,
+    "status": true,
+    "category": "Electrico",
+    "stock": 2,
+    "thumbnails": []
+  },
+  {
+    "id": "2b259240-bd69-47ea-93ac-c0705f5a5d2b",
+    "title": "Seal BYD",
+    "description": "BYD Seal Sedán deportivo",
+    "code": "BYDSL",
+    "price": 385000,
+    "status": true,
+    "category": "Electrico",
+    "stock": 1,
+    "thumbnails": []
   }
 ]

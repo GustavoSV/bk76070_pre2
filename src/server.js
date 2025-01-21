@@ -6,6 +6,7 @@ import { viewsRouter } from './routes/views.routes.js';
 import { __dirname } from './dirname.js';
 import path from 'path';
 import { Server as SocketIOServer } from 'socket.io';
+import { productManager } from './api/ProductManager.js';
 
 const app = express();
 const PORT = 8080;
@@ -44,3 +45,10 @@ const server = app.listen(PORT, () => {
 });
 // Configuración de socket.io
 export const io = new SocketIOServer(server);
+
+io.on('connection', async (socket) => {
+  console.log('Nuevo cliente conectado:', socket.id);
+
+  const products = await productManager.getProducts();
+  socket.emit('init', products);
+})

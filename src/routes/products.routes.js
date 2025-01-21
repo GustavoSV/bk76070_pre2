@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { productManager } from "../api/ProductManager.js";
+import { io } from '../server.js';
 
 export const productsRouter = Router();
 
@@ -25,6 +26,10 @@ productsRouter.post('/', async (req, res) => {
 
   try {
     const newProduct = await productManager.createProduct({ title, description, code, price, status, category, stock, thumbnails });
+    
+    // Emitir el evento 'new-product' a todos los clientes conectados
+    io.emit('new-product', newProduct);
+    
     res.status(201).json(newProduct);
   } catch (error) {
     res.status(500).json({ message: 'Error interno del servidor', error });
