@@ -7,7 +7,8 @@
     "price": 29500,
     "status": true,
     "category": "Muebles",
-    "stock": 0
+    "stock": 0,
+    "thumbnails": ["/img/comedor-nuevo-2.jpg"]
   },
   {
     "id": "cee33c51-e864-4648-824e-82e309c884a7",
@@ -17,7 +18,8 @@
     "price": 7200,
     "status": true,
     "category": "Muebles",
-    "stock": 0
+    "stock": 0,
+    "thumbnails": ["/img/71Z21Lmj0JL.jpg"]
   },
   {
     "id": "2df0f1b4-08c8-4daf-9623-eb3340bd86c5",
@@ -27,7 +29,8 @@
     "price": 12200,
     "status": true,
     "category": "Muebles",
-    "stock": 0
+    "stock": 0,
+    "thumbnails": ["/img/madame-royale-silla-sala-de-estar-3.jpg"]
   },
   {
     "id": "a6a971de-c3aa-418d-8e04-a739e7adc09d",
@@ -38,7 +41,7 @@
     "status": true,
     "category": "Utiles",
     "stock": 3,
-    "thumbnails": []
+    "thumbnails": ["/img/boligrafo-de-lujo-expert.jpg"]
   },
   {
     "id": "09727282-da70-46b3-bcc2-80829f890dea",
@@ -49,7 +52,7 @@
     "status": true,
     "category": "Electrico",
     "stock": 2,
-    "thumbnails": []
+    "thumbnails": ["/img/Mazda6e-250.jpg"]
   },
   {
     "id": "2b259240-bd69-47ea-93ac-c0705f5a5d2b",
@@ -60,6 +63,6 @@
     "status": true,
     "category": "Electrico",
     "stock": 1,
-    "thumbnails": []
+    "thumbnails": ["/img/Carro-electrico-BYD-seal.jpg"]
   }
 ]

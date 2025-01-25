@@ -41,7 +41,7 @@ app.use("/", viewsRouter);
 
 // Server initialization
 const server = app.listen(PORT, () => {
-  console.log(`Servidor corriendo en el puerto ${PORT}`);
+  console.log(`Servidor corriendo en //localhost:${PORT}`);
 });
 // Configuración de socket.io
 export const io = new SocketIOServer(server);
